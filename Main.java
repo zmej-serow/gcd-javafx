@@ -13,7 +13,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("НОД для Ольки");
+        primaryStage.setTitle("GCD for Olka");
 
         GridPane grid = new GridPane();
         grid.setAlignment(Pos.CENTER);
@@ -24,7 +24,7 @@ public class Main extends Application {
         Scene scene = new Scene(grid, 350, 75);
         primaryStage.setScene(scene);
 
-        final Text scenetitle = new Text("Вводи цифры.");
+        final Text scenetitle = new Text("Enter digits.");
         grid.add(scenetitle, 0, 0, 1, 1);
 
         TextField userTextField = new TextField();
