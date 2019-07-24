@@ -14,7 +14,7 @@ public class Parser {
         if (numbers.length > 1) {
             return null;
         }
-        return "О да, детка, пиши ещё!";
+        return "Enter more digits!";
     }
 
     /**
